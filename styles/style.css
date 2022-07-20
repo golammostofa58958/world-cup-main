@@ -212,7 +212,7 @@ p {
 }
 
 
-/* upcoming.html */
+/* --------upcoming.html -----------*/
 
 .player2 {
     display: flex;
@@ -249,7 +249,7 @@ p {
     }
 
     .marcelo,
-    .player,
+    .player2,
     .fotter {
 
         grid-template-columns: repeat(1, 1fr);
@@ -265,7 +265,7 @@ p {
         width: 100%;
     }
 
-    .player {
+    .player2 {
 
         grid-template-columns: repeat(2, 1fr);
     }
@@ -277,7 +277,7 @@ p {
 }
 
 
-/* group list */
+/* -----------------group.html----------------- */
 .player3 {
     display: flex;
 }
@@ -297,4 +297,39 @@ p {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin-bottom: 25px;
+}
+
+/* -----------Media Queries-------- */
+/* Mobile divices */
+@media only screen and (max-width:768px) {
+    .marcelo {
+        width: 100%;
+    }
+
+    .marcelo,
+    .player3,
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .marcelo {
+        width: 100%;
+    }
+
+    .player3 {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
