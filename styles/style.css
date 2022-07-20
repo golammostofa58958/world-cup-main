@@ -20,6 +20,7 @@ p {
     margin: auto;
     padding-left: 50px;
     margin-bottom: 50px;
+    flex-grow: initial;
 
 }
 
@@ -173,4 +174,127 @@ p {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+}
+
+/* -----------Media Queries-------- */
+/* Mobile divices */
+@media only screen and (max-width:768px) {
+    .marcelo {
+        width: 100%;
+    }
+
+    .marcelo,
+    .player,
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .marcelo {
+        width: 100%;
+    }
+
+    .player {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* upcoming.html */
+
+.player2 {
+    display: flex;
+}
+
+.all-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+}
+
+.list {
+    background-color: aqua;
+    width: 280px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgvs {
+    display: flex;
+    padding: 20px 40px;
+}
+
+/* -----------Media Queries-------- */
+/* Mobile divices */
+@media only screen and (max-width:768px) {
+    .marcelo {
+        width: 100%;
+    }
+
+    .marcelo,
+    .player,
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .marcelo {
+        width: 100%;
+    }
+
+    .player {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fotter {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* group list */
+.player3 {
+    display: flex;
+}
+
+.group {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.group-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
 }
