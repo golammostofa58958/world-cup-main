@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.marcelo {
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px 50px;
+    padding-left: 50px;
+}
+
+.earth {
+    color:
+        #FFFFFF;
+    width: 500px;
+}
+
+.earth img {
+    width: 560px;
+
+}
+
+.link-button {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color:
+        #DD0000;
+    padding: 16px 25px;
+    gap: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* player style */
+.player {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin: 20px 50px;
+    padding-top: 20px;
+
+
+
+}
+
+.email-box {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+.play {
+
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.sala {
+    width: 312px;
+    height: 362px;
+    margin-bottom: 10px;
+
+}
+
+.trans .bor {
+    border: 1px solid #161616;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+
+.hour {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+/* 3rd part */
+.fotter {
+    background-color: #161616;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 100px;
+    margin: 20px 50px;
+
+}
+
+.margin {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 2px solid gray;
+}
+
+
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
