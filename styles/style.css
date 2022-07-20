@@ -178,10 +178,8 @@ p {
 
 /* -----------Media Queries-------- */
 /* Mobile divices */
-@media only screen and (max-width:668px) {
-    .marcelo {
-        width: 100%;
-    }
+@media only screen and (max-width:766px) {
+
 
     .marcelo,
     .player,
@@ -194,17 +192,15 @@ p {
 
 /* tablet devices */
 
-@media only screen and (min-width:669px) and (max-width:992px) {
+@media only screen and (min-width:768px) and (max-width:1023px) {
 
-    .marcelo {
-        width: 100%;
-    }
 
     .player {
 
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .marcelo,
     .fotter {
 
         grid-template-columns: repeat(1, 1fr);
@@ -243,10 +239,7 @@ p {
 
 /* -----------Media Queries-------- */
 /* Mobile divices */
-@media only screen and (max-width:668px) {
-    .marcelo {
-        width: 100%;
-    }
+@media only screen and (max-width:766px) {
 
     .marcelo,
     .player2,
@@ -259,17 +252,15 @@ p {
 
 /* tablet devices */
 
-@media only screen and (min-width:669px) and (max-width:992px) {
+@media only screen and (min-width:768px) and (max-width:1023px) {
 
-    .marcelo {
-        width: 100%;
-    }
 
     .player2 {
 
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .marcelo,
     .fotter {
 
         grid-template-columns: repeat(1, 1fr);
@@ -302,10 +293,7 @@ p {
 
 /* -----------Media Queries-------- */
 /* Mobile divices */
-@media only screen and (max-width:668px) {
-    .marcelo {
-        width: 100%;
-    }
+@media only screen and (max-width:766px) {
 
     .marcelo,
     .player3,
@@ -318,16 +306,14 @@ p {
 
 /* tablet devices */
 
-@media only screen and (min-width:669px) and (max-width:992px) {
+@media only screen and (min-width:768px) and (max-width:1023px) {
 
-    .marcelo {
-        width: 100%;
-    }
 
     .player3 {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .marcelo,
     .fotter {
 
         grid-template-columns: repeat(1, 1fr);
