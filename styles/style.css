@@ -280,13 +280,14 @@ p {
 /* -----------------group.html----------------- */
 .player3 {
     display: flex;
+    width: 100%;
 }
 
 .group {
     border: 1px solid gray;
     border-radius: 5px;
     background-color: aquamarine;
-    width: 300px;
+    width: 270px;
     height: 300px;
     padding-left: 10px;
 }
@@ -324,7 +325,6 @@ p {
     }
 
     .player3 {
-
         grid-template-columns: repeat(2, 1fr);
     }
 
