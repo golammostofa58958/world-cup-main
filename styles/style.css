@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 h1 {
@@ -12,11 +13,14 @@ p {
 }
 
 .marcelo {
+    width: 90%;
     background-color: #161616;
     border-radius: 10px;
     display: flex;
-    margin: 20px 50px;
+    margin: auto;
     padding-left: 50px;
+    margin-bottom: 50px;
+
 }
 
 .earth {
@@ -38,37 +42,63 @@ p {
     padding: 16px 25px;
     gap: 10px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
     text-align: center;
 }
 
-/* player style */
-.player {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    margin: 20px 50px;
-    padding-top: 20px;
-
-
-
-}
+/* 2nd part */
 
 .email-box {
+    margin-right: 25px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
     background-color: #161616;
     width: 312px;
     height: 312px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 0 15px;
 
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.box>.blog {
+    background-color: #DD0000;
+    color: #FFFFFF;
 }
 
 
 
+/* player part */
 
+.player {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 
+.player-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+}
 
 .play {
 
@@ -78,48 +108,69 @@ p {
 
 }
 
+.play img {
+    width: 100%;
+}
+
 .sala {
-    width: 312px;
-    height: 362px;
-    margin-bottom: 10px;
+
+    width: 250px;
+    height: 175px;
+    margin-bottom: 20px;
 
 }
 
-.trans .bor {
+.trans .border {
+    text-decoration: none;
     border: 1px solid #161616;
     border-radius: 5px;
-    width: 120px;
-    height: 20px;
+    width: 100px;
+    height: 32px;
     text-align: center;
+    padding: 5px;
 }
 
 .hour {
+    width: 50%;
     display: flex;
     text-align: center;
     justify-content: space-between;
 
+}
 
+.hour div {
+    display: flex;
+}
+
+.hour div img {
+    margin-right: 15px;
 }
 
 /* 3rd part */
 .fotter {
     background-color: #161616;
-    border-radius: 10px;
     color: #FFFFFF;
     padding: 100px;
-    margin: 20px 50px;
+
+
 
 }
 
 .margin {
     text-align: center;
     padding-top: 30px;
-    margin-bottom: 2px solid gray;
+    margin-bottom: 1px solid gray;
 }
 
 
 
 .fot {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
