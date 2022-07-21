@@ -13,14 +13,16 @@ p {
 }
 
 .marcelo {
+    display: flex;
     width: 90%;
     background-color: #161616;
     border-radius: 10px;
-    display: flex;
+
     margin: auto;
     padding-left: 50px;
     margin-bottom: 50px;
-    flex-grow: initial;
+    /* flex-grow: initial; */
+
 
 }
 
@@ -28,10 +30,15 @@ p {
     color:
         #FFFFFF;
     width: 500px;
+    padding-bottom: 40px;
+
 }
 
 .earth img {
-    width: 560px;
+    width: 400px;
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 50px;
 
 }
 
@@ -88,7 +95,7 @@ p {
 
 .player {
     display: flex;
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -180,31 +187,69 @@ p {
 /* Mobile divices */
 @media only screen and (max-width:766px) {
 
-
-    .marcelo,
-    .player,
-    .fotter {
-
-        grid-template-columns: repeat(1, 1fr);
+    .marcelo {
+        /* width: 100%; */
         flex-direction: column;
+        align-items: center;
     }
+
+    .player {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player-all {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+    .fot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
 
 /* tablet devices */
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
+    .marcelo {
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+    }
 
     .player {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .player-all {
         grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 
-    .marcelo,
-    .fotter {
 
-        grid-template-columns: repeat(1, 1fr);
+    .fot {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 }
 
 
@@ -237,35 +282,74 @@ p {
     padding: 20px 40px;
 }
 
-/* -----------Media Queries-------- */
 /* Mobile divices */
 @media only screen and (max-width:766px) {
 
-    .marcelo,
-    .player2,
-    .fotter {
-
-        grid-template-columns: repeat(1, 1fr);
+    .marcelo {
+        /* width: 100%; */
         flex-direction: column;
+        align-items: center;
     }
+
+    .player2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all-list {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+    .fot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
 
 /* tablet devices */
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
+    .marcelo {
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+    }
 
     .player2 {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .all-list {
         grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 
-    .marcelo,
-    .fotter {
 
-        grid-template-columns: repeat(1, 1fr);
+    .fot {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 }
+
 
 
 /* -----------------group.html----------------- */
@@ -295,27 +379,69 @@ p {
 /* Mobile divices */
 @media only screen and (max-width:766px) {
 
-    .marcelo,
-    .player3,
-    .fotter {
-
-        grid-template-columns: repeat(1, 1fr);
+    .marcelo {
+        /* width: 100%; */
         flex-direction: column;
+        align-items: center;
     }
+
+    .player3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .group-all {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+    .fot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
+
 
 /* tablet devices */
 
+
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
+    .marcelo {
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+    }
 
     .player3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .group-all {
         grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 
-    .marcelo,
-    .fotter {
 
-        grid-template-columns: repeat(1, 1fr);
+    .fot {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 }
